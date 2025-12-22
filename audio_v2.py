@@ -3,7 +3,6 @@ from scipy.io.wavfile import write
 from scipy import signal
 import subprocess
 import math
-import matplotlib.pyplot as plt
 
 SAMPLERATE = 44100
 
