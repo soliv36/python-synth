@@ -319,9 +319,9 @@ def play(output:np.array):
 
 ## TEST
 # define custom ADSR envelopes
-adsr_flute = [6/14 0 8/14 0] # use with square wave
-adsr_violin = [10/37 8/37 10/37 9/37] # use with square wave
-adsr_cello = [0 1 0 0] # use with square wave
+adsr_flute = [6/14, 0, 8/14, 0] # use with square wave
+adsr_violin = [10/37, 8/37, 10/37, 9/37] # use with square wave
+adsr_cello = [0, 1, 0, 0] # use with square wave
 
 
 a4 = Note('a4', adsr=[0.5, 0.2, 0.1, 0.1], effects=[('h', 4), ('v', 3, 'sine')])
